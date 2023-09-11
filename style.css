@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar {
+  background-image: url(./images/uogf;u.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  filter: brightness(80%);
+  padding-bottom: 5px;
+}
+
+.navbar img {
+  padding: 0px 0px;
+}
+
+.navbar ul {
+  text-align: right;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #288adf;
+}
+
+.center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.center h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.center p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.center button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center p i {
+  color: white;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.price figure {
+  padding: 10px;
+}
+
+.price figcaption {
+  text-align: center;
+}
