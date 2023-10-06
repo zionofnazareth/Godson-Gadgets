@@ -10,7 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   background-repeat: no-repeat;
   margin-bottom: 50px;
@@ -77,13 +77,31 @@
 .price {
   display: flex;
   justify-content: center;
+  gap: 40px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .price figure {
   padding: 10px;
+  width: 250px;
+  height: auto;
 }
 
 .price figcaption {
   text-align: center;
+}
+
+@media (max-width: 380px){
+  .price figure{
+    width: 150px;
+    height: 200px;
+  }
+
+  .price figure img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
 }
