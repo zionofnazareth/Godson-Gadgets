@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background-image: url(./newimages/20231020_151202.jpg);
+  background-image: url(./newimages/neon-tv-empty-screen-ly6gfotrrjhp6sw2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,7 +54,7 @@
 }
 
 .center h1 {
-  color: red;
+  color: green;
   margin-bottom: 10px;
 }
 
@@ -84,6 +84,7 @@
   margin-bottom: 30px;
   flex-wrap: wrap;
   overflow: hidden;
+  box-shadow: 40px 40px 400px gold;
 }
 
 .price figure {
